@@ -1,4 +1,4 @@
-- *** System IO Namespace ***
+# System IO Namespace
 
 - BinaryWriter and BinaryReader Class
 - BufferedStream Class
