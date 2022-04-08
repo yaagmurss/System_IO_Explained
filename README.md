@@ -1,2 +1,4 @@
-# System_IO_Explained
-System.IO namespace types explained
+- *** System IO Namespace ***
+
+- BinaryWriter and BinaryReader Class
+- BufferedStream Class
