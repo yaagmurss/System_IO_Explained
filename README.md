@@ -2,3 +2,4 @@
 
 - BinaryWriter and BinaryReader Class
 - BufferedStream Class
+- Directory Class
