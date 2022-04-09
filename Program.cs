@@ -1,33 +1,18 @@
 ﻿using System;
-using System.IO;
 
-
-namespace Directories
+namespace System_IO_Explained
 {
     class Program
     {
         static void Main(string[] args)
         {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\200741\Desktop\Dosya\ymr\New folder");
+            function fn = new function();
 
-            foreach (FileInfo fi in dir.GetFiles())
-            {
-                try
-                {
-                    fi.Delete();
-                }
-                catch (Exception) { } // Ignore all exceptions
-            }
+            //fn.BinaryReaderandBinaryWriter();
+            fn.DirectoryClass();
 
-            foreach (DirectoryInfo di in dir.GetDirectories())
-            {
-                //System.IO.File.Delete(di.FullName);
-                try
-                {
-                    di.Delete();
-                }
-                catch (Exception) { } // Ignore all exceptions
-            }
+
+            Console.ReadLine();
         }
     }
 }
